@@ -14,10 +14,15 @@
  * limitations under the License.
  */
 
-package Director.tTicTacToe;
+package Director.tTicTacToe.component;
 
-public class ComputerMove {
-    public void make(final GameTable gameTable) {
+import Director.tTicTacToe.model.GameTable;
+
+public class DataPrinter {
+    public void printMappingTable() {
+    }
+
+    public void printGameTable(final GameTable gameTable) {
 
     }
 }

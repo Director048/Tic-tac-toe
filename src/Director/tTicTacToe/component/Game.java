@@ -14,8 +14,10 @@
  * limitations under the License.
  */
 
-package Director.tTicTacToe;
+package Director.tTicTacToe.component;
 
+
+import Director.tTicTacToe.model.GameTable;
 
 import java.util.Random;
 

@@ -14,13 +14,16 @@
  * limitations under the License.
  */
 
-package Director.tTicTacToe;
+package Director.tTicTacToe.component;
 
-public class DataPrinter {
-    public void printMappingTable() {
+import Director.tTicTacToe.model.GameTable;
+
+public class WinnerVerifier {
+    public boolean isUserWin(final GameTable gameTable) {
+        return false;
     }
 
-    public void printGameTable(final GameTable gameTable) {
-
+    public boolean isComputerWin(final GameTable gameTable) {
+        return false;
     }
 }

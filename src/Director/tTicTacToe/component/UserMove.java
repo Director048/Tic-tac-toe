@@ -14,14 +14,12 @@
  * limitations under the License.
  */
 
-package Director.tTicTacToe;
+package Director.tTicTacToe.component;
 
-public class WinnerVerifier {
-    public boolean isUserWin(final GameTable gameTable) {
-        return false;
-    }
+import Director.tTicTacToe.model.GameTable;
 
-    public boolean isComputerWin(final GameTable gameTable) {
-        return false;
+public class UserMove {
+    public void make(final GameTable gameTable) {
+
     }
 }

@@ -14,7 +14,9 @@
  * limitations under the License.
  */
 
-package Director.tTicTacToe;
+package Director.tTicTacToe.component;
+
+import Director.tTicTacToe.model.GameTable;
 
 public class DrawVerifier {
     public boolean isDraw(final GameTable gameTable) {

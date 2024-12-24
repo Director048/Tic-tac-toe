@@ -14,10 +14,7 @@
  * limitations under the License.
  */
 
-package Director.tTicTacToe;
+package Director.tTicTacToe.model;
 
-public class UserMove {
-    public void make(final GameTable gameTable) {
-
-    }
+public class GameTable {
 }
